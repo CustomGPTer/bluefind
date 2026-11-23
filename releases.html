@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BlueFind release notes</title>
+<meta name="description" content="What changed in each version of BlueFind, with the file size and checksum to check your download.">
+<meta name="author" content="Jonathan Jackson">
+<link rel="canonical" href="https://customgpter.github.io/bluefind/releases.html">
+<meta name="theme-color" content="#f2f6fc" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#06142b" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BlueFind">
+<meta property="og:title" content="BlueFind release notes">
+<meta property="og:description" content="What changed in each version of BlueFind, with the file size and checksum to check your download.">
+<meta property="og:url" content="https://customgpter.github.io/bluefind/releases.html">
+<meta property="og:image" content="https://customgpter.github.io/bluefind/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="BlueFind&#x27;s device list: nearby Bluetooth devices with signal bars, makers and distances">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./assets/apple-touch-icon.png">
+<link rel="preload" href="./assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="./assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="./assets/site.css?v=1">
+<link rel="stylesheet" href="./assets/house.css?v=1">
+<link rel="stylesheet" href="./assets/apps-list.css?v=1">
+<script src="./assets/apps-list.js?v=1" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+<div class="wrap">
+<a class="brand" href="./" aria-label="BlueFind home"><svg viewBox="0 0 108 108" aria-hidden="true"><defs><linearGradient id="bfa" gradientUnits="userSpaceOnUse" x1="18" y1="18" x2="90" y2="90"><stop offset="0" stop-color="#1B7BCB"/><stop offset="1" stop-color="#0D5596"/></linearGradient><radialGradient id="bfb" gradientUnits="userSpaceOnUse" cx="54" cy="26" r="40"><stop offset="0" stop-color="#fff" stop-opacity=".33"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><radialGradient id="bfc" gradientUnits="userSpaceOnUse" cx="54" cy="39.6" r="39.6"><stop offset="0" stop-color="#B7E0FF"/><stop offset=".6" stop-color="#7FC0F5"/><stop offset="1" stop-color="#6AB0EC"/></radialGradient><radialGradient id="bfd" gradientUnits="userSpaceOnUse" cx="54" cy="52.92" r="14.4"><stop offset="0" stop-color="#79C3FF"/><stop offset="1" stop-color="#5AAEF5"/></radialGradient></defs><rect width="108" height="108" rx="24" fill="url(#bfa)"/><rect width="108" height="108" rx="24" fill="url(#bfb)"/><circle cx="54" cy="52.92" r="28.8" fill="url(#bfc)"/><circle cx="54" cy="52.92" r="21.6" fill="#fff" fill-opacity=".35"/><path d="M63 65.88L71.28 77.76" stroke="#fff" stroke-width="5.4" stroke-linecap="round"/><circle cx="54" cy="52.92" r="18.36" fill="#fff"/><circle cx="54" cy="52.92" r="14.04" fill="url(#bfd)"/><path d="M50.4 49.75L57.6 56.09L54 60.12L54 45.72L57.6 49.75L50.4 56.09" fill="none" stroke="#fff" stroke-width="1.87" stroke-linecap="round" stroke-linejoin="round"/></svg><span>BlueFind</span></a>
+<nav aria-label="Main"><ul><li><a href="./#features">Features</a></li><li><a href="./compare.html">Compare</a></li><li><a href="./releases.html" aria-current="page">Releases</a></li><li><a class="more-apps" href="./more-apps.html"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.6"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.6"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.6"/></svg>More apps</a></li></ul></nav>
+<a class="button small" href="./#download"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/></svg>Download</a>
+</div>
+</header>
+<main id="main" class="doc">
+<div class="wrap">
+<div class="measure">
+<h1>Release notes</h1>
+<p class="lede">What changed in each version of BlueFind. The newest is at the top.</p>
+<section class="release" id="v1.0.0"><h2><span class="ver">Version 1.0.0</span> <span class="when">23 November 2026</span><span class="tag">Latest</span></h2><ul><li><b>First release.</b> Find lost Bluetooth devices by their signal.</li><li>Scanner for low-energy and older Bluetooth together, with makers from the Bluetooth and IEEE registers, smoothed signals and distances, and devices that change their address kept as one.</li><li>Finding mode with a hotter-colder glow, clicks and vibration, turn to find, calibration at one metre and play a sound on tags that support it.</li><li>Names, colours, tags, notes, favourites and hidden devices, search, filters and saved filters, list and radar views.</li><li>Watched devices with last-seen places on an OpenStreetMap map, 30 days of history, left-behind alerts and safe places.</li><li>The tag check: a warning about any tag that is not yours and seems to travel with you, with plain advice.</li><li>Home-screen widget, quick settings tile, app lock with PIN or fingerprint, and backup to a file locked with your password.</li><li>Dark and light themes, larger text, reduced motion and screen-reader descriptions.</li></ul></section>
+<h2 id="checking">Checking your download</h2>
+<p>The file for version 1.0.0 is called <code>BlueFind.apk</code>. It is 1.6 MB (1,554,295 bytes). Its SHA-256 checksum is:</p>
+<p><code class="sum">2390ad7b7f72378d1374711dbb7c189e93d31dfa96af4966ea6fe3e81914ba00</code></p>
+<p>On Windows, run <code>certutil -hashfile BlueFind.apk SHA256</code> and compare. Every version is signed with the same key, so each one installs over the last and keeps what you have saved.</p>
+<p>Older versions are on the <a href="https://github.com/CustomGPTer/bluefind/releases">GitHub releases page</a>.</p>
+</div>
+</div>
+</main>
+<footer class="colophon">
+<div class="wrap">
+<div>
+<a class="brand" href="./" aria-label="BlueFind home"><svg viewBox="0 0 108 108" aria-hidden="true"><defs><linearGradient id="bfa" gradientUnits="userSpaceOnUse" x1="18" y1="18" x2="90" y2="90"><stop offset="0" stop-color="#1B7BCB"/><stop offset="1" stop-color="#0D5596"/></linearGradient><radialGradient id="bfb" gradientUnits="userSpaceOnUse" cx="54" cy="26" r="40"><stop offset="0" stop-color="#fff" stop-opacity=".33"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient><radialGradient id="bfc" gradientUnits="userSpaceOnUse" cx="54" cy="39.6" r="39.6"><stop offset="0" stop-color="#B7E0FF"/><stop offset=".6" stop-color="#7FC0F5"/><stop offset="1" stop-color="#6AB0EC"/></radialGradient><radialGradient id="bfd" gradientUnits="userSpaceOnUse" cx="54" cy="52.92" r="14.4"><stop offset="0" stop-color="#79C3FF"/><stop offset="1" stop-color="#5AAEF5"/></radialGradient></defs><rect width="108" height="108" rx="24" fill="url(#bfa)"/><rect width="108" height="108" rx="24" fill="url(#bfb)"/><circle cx="54" cy="52.92" r="28.8" fill="url(#bfc)"/><circle cx="54" cy="52.92" r="21.6" fill="#fff" fill-opacity=".35"/><path d="M63 65.88L71.28 77.76" stroke="#fff" stroke-width="5.4" stroke-linecap="round"/><circle cx="54" cy="52.92" r="18.36" fill="#fff"/><circle cx="54" cy="52.92" r="14.04" fill="url(#bfd)"/><path d="M50.4 49.75L57.6 56.09L54 60.12L54 45.72L57.6 49.75L50.4 56.09" fill="none" stroke="#fff" stroke-width="1.87" stroke-linecap="round" stroke-linejoin="round"/></svg><span>BlueFind</span></a>
+<p>&copy; 2026 Jonathan Jackson. BlueFind is an independent app.</p>
+<p>This site uses no cookies and no tracking. The only script on it unlocks the download once the lawful-use box is ticked.</p>
+<p>Set in Bricolage Grotesque and Atkinson Hyperlegible.</p>
+</div>
+<nav aria-label="The app"><h2>The app</h2><ul>
+<li><a href="./">Home</a></li>
+<li><a href="./compare.html">Compare</a></li>
+<li><a href="./releases.html">Release notes</a></li>
+
+</ul></nav>
+<nav aria-label="Legal"><h2>Legal</h2><ul>
+<li><a href="./privacy.html">Privacy policy</a></li>
+<li><a href="./terms.html">Terms of use</a></li>
+<li><a href="./licences.html">Licences</a></li>
+</ul></nav>
+<nav aria-label="More"><h2>More</h2><ul>
+<li><a href="./more-apps.html">More apps</a></li>
+<li><a href="https://customgpter.github.io/">All apps</a></li>
+<li><a href="https://github.com/CustomGPTer/bluefind/issues">Contact</a></li>
+</ul></nav>
+</div>
+</footer>
+</body>
+</html>
