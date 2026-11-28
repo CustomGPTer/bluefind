@@ -1,5 +1,7 @@
-BlueFind 1.0.2.
+BlueFind 1.0.3 ties the app into TorusApps.com.
 
-- The list and radar switch at the top now appears only once there are devices to show.
+- About: Check for updates now reads the signed app list on torusapps.com when you tap it, and shows "Update available", which opens torusapps.com/bluefind/. Nothing downloads in the app and nothing about you is sent.
+- About: Website (torusapps.com/bluefind/), More apps (torusapps.com), Privacy policy (torusapps.com/privacy/), Email (hello@torusapps.com) and "Developed by Jonathan Jackson".
+- Privacy wording updated: the internet is used for map pictures and for update checks you ask for.
 
-Install 1.0.2 over your current BlueFind. Android 8 or later. Use it to find your own things and to check that nobody is tracking you, never to follow or locate another person. Check the file against SHA256SUMS before installing.
+Installs over the earlier version and keeps everything.
